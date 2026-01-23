@@ -51,9 +51,9 @@ pip install ultralytics opencv-python numpy pandas matplotlib jupyter
 
 ## 🏃‍♂️ Running YOLOv8 Inference
 # Detect objects in a video:
-'''
+```
 python src/detect.py --weights models/best.pt --source videos/input.mp4 --save-txt --save-conf
-'''
+```
 
 --weights → path to your YOLOv8 model
 --source → input video or folder
@@ -61,7 +61,25 @@ python src/detect.py --weights models/best.pt --source videos/input.mp4 --save-t
 --save-conf → saves confidence scores
 
 # Optional: Run on images
-'''
+```
 python src/detect.py --weights models/best.pt --source images/ --save-txt
-'''
+```
+
+## 📊 Jupyter Notebook Demos
+
+-> notebooks/For pics.ipynb — test object detection on images
+-> notebooks/For videos.ipynb — process videos using YOLOv8
+-> notebooks/KeyWord_Extraction.ipynb — analyze labels for keyword extraction
+
+## 📎 External Results & Demos
+
+Video outputs cannot be stored in GitHub due to size limits. 
+Sample results are hosted externally at:
+
+## 📚 Technologies Used
+Python 3
+YOLOv8
+OpenCV
+NumPy, Pandas, Matplotlib
+Jupyter Notebooks
 
