@@ -34,15 +34,15 @@ COGNITIVE‑VIDEO‑RECOGNITION‑AD‑BUDDY/
 ## ⚙️ Setup & Installation
 
 1. Clone the repository:
-```bash
+```
 git clone https://github.com/junaid-4001/COGNITIVE-VIDEO-RECOGNITION-AD-BUDDY.git
 cd COGNITIVE-VIDEO-RECOGNITION-AD-BUDDY
-```bash
+```
 
 2. Create a virtual environment (recommended):
-```bash
+```
 python3 -m venv venv
 source venv/bin/activate   # macOS / Linux
-```bash
+```
 
 
