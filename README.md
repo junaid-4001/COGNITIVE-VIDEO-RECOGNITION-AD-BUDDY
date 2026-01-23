@@ -79,7 +79,7 @@ python src/detect.py --weights models/best.pt --source images/ --save-txt
 ## 📎 External Results & Demos
 
 Video outputs cannot be stored in GitHub due to size limits. 
-Sample results are hosted externally at:
+Sample results are hosted externally at: https://drive.google.com/drive/folders/1GjxOyUkhXLpGMKhpA8nHvtSL4GmDbyY8?usp=share_link
 
 ## 📚 Technologies Used
 
