@@ -45,4 +45,23 @@ python3 -m venv venv
 source venv/bin/activate   # macOS / Linux
 ```
 
+3. Install required Python packages:
+'''
+pip install ultralytics opencv-python numpy pandas matplotlib jupyter
+
+## 🏃‍♂️ Running YOLOv8 Inference
+# Detect objects in a video:
+'''
+python src/detect.py --weights models/best.pt --source videos/input.mp4 --save-txt --save-conf
+'''
+
+--weights → path to your YOLOv8 model
+--source → input video or folder
+--save-txt → saves detected labels
+--save-conf → saves confidence scores
+
+# Optional: Run on images
+'''
+python src/detect.py --weights models/best.pt --source images/ --save-txt
+'''
 
