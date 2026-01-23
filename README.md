@@ -38,4 +38,8 @@ COGNITIVE‑VIDEO‑RECOGNITION‑AD‑BUDDY/
 git clone https://github.com/junaid-4001/COGNITIVE-VIDEO-RECOGNITION-AD-BUDDY.git
 cd COGNITIVE-VIDEO-RECOGNITION-AD-BUDDY
 
+2. Create a virtual environment (recommended):
+python3 -m venv venv
+source venv/bin/activate   # macOS / Linux
+
 
