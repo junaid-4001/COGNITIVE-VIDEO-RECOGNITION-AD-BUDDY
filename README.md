@@ -17,9 +17,13 @@ A computer vision system for **detecting and recognizing objects in video footag
 ## 📁 Repository Structure
 
 COGNITIVE‑VIDEO‑RECOGNITION‑AD‑BUDDY/
+
 ┣ 📂src/ # Source code modules
+
 ┣ 📂models/ # Saved YOLOv8 models / configs
+
 ┣ 📂notebooks/ # Jupyter notebooks for demos
+
 ┣ 📄README.md # This file
 
 
